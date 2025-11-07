@@ -1,4 +1,20 @@
 
 ^https:\/\/novel.html5.qq.com\/(trpc.pcg_novel.operating_position.OperatingPositionHTTP\/.*|(nfa|qbnfa)\/(getAds|getOrReportData)|be-api\/content\/ads-read|qbread\/api\/novel\/adload\/.*|qbread\/api\/report\/.*) url reject
 
+HOST,dp3.qq.com,REJECT
+HOST,info4.video.qq.com,REJECT
+HOST,info6.video.qq.com,REJECT
+HOST,ios.video.mpush.qq.com,REJECT
+HOST,mtrace.qq.com,REJECT
+HOST,pgdt.gtimg.cn,REJECT
+HOST,btrace.qq.com,REJECT
+HOST-SUFFIX,appcfg.v.qq.com,REJECT
+HOST-SUFFIX,gdt.qq.com,REJECT
+HOST-SUFFIX,h.trace.qq.com,REJECT
+HOST-SUFFIX,l.qq.com,REJECT
+HOST-SUFFIX,mazu.m.qq.com,REJECT
+HOST-SUFFIX,oth.eve.mdt.qq.com,REJECT
+HOST-SUFFIX,oth.str.mdt.qq.com,REJECT
+HOST-SUFFIX,rqd.qq.com,REJECT
+
 hostname = novel.html5.qq.com
